@@ -5,7 +5,10 @@ from typing import List
 from graph import graph
 
 # Technician and ticket storage
-TECHNICIAN_FILE = "data.json"
+TECHNICIAN_FILE = "/mnt/data/data.json"
+TICKET_FILE = "/mnt/data/tickets.json"
+ASSIGNED_FILE = "/mnt/data/assigned.json"
+
 
 class Ticket(BaseModel):
     required_skills: List[str]
